@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/LAB1/">
+    <Project Path="BUOI1/BUOI1.csproj" />
+    <Project Path="BUOI11/BUOI11.csproj" Id="98ec49bb-12f3-4043-a33e-63df562b0ebd" />
+    <Project Path="BUOI2/BUOI2.csproj" Id="de07e348-83ac-4fc9-b557-fece548f7344" />
+    <Project Path="BUOI5/BUOI5.csproj" Id="dbdbd093-a447-4489-b9a1-75058cc8f439" />
+  </Folder>
+  <Project Path="BUOI7/BUOI7.csproj" />
+  <Project Path="BUOI9/BUOI9.csproj" />
+</Solution>

@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI9\bin\Debug\net10.0\BUOI9.exe
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI9\bin\Debug\net10.0\BUOI9.deps.json
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI9\bin\Debug\net10.0\BUOI9.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI9\bin\Debug\net10.0\BUOI9.dll
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI9\bin\Debug\net10.0\BUOI9.pdb
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI9\obj\Debug\net10.0\BUOI9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI9\obj\Debug\net10.0\BUOI9.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI9\obj\Debug\net10.0\BUOI9.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI9\obj\Debug\net10.0\BUOI9.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI9\obj\Debug\net10.0\BUOI9.sourcelink.json
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI9\obj\Debug\net10.0\BUOI9.dll
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI9\obj\Debug\net10.0\refint\BUOI9.dll
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI9\obj\Debug\net10.0\BUOI9.pdb
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI9\obj\Debug\net10.0\BUOI9.genruntimeconfig.cache
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI9\obj\Debug\net10.0\ref\BUOI9.dll

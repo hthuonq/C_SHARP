@@ -1,0 +1,16 @@
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI2\bin\Debug\net10.0\BUOI2.exe
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI2\bin\Debug\net10.0\BUOI2.deps.json
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI2\bin\Debug\net10.0\BUOI2.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI2\bin\Debug\net10.0\BUOI2.dll
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI2\bin\Debug\net10.0\BUOI2.pdb
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI2\obj\Debug\net10.0\BUOI2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI2\obj\Debug\net10.0\BUOI2.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI2\obj\Debug\net10.0\BUOI2.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI2\obj\Debug\net10.0\BUOI2.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI2\obj\Debug\net10.0\BUOI2.sourcelink.json
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI2\obj\Debug\net10.0\BUOI2.dll
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI2\obj\Debug\net10.0\refint\BUOI2.dll
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI2\obj\Debug\net10.0\BUOI2.pdb
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI2\obj\Debug\net10.0\BUOI2.genruntimeconfig.cache
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI2\obj\Debug\net10.0\ref\BUOI2.dll
+C:\Users\Admin\Documents\GitHub\SGU26_CSHARP\TUAN01\lab1\BUOI2\obj\Debug\net10.0\BUOI2.csproj.Up2Date
