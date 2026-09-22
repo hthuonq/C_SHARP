@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\GitHub\C-SHARP\TUAN 02\Lab02\TH02\bin\Debug\net10.0\TH02.exe
+C:\Users\Admin\Documents\GitHub\C-SHARP\TUAN 02\Lab02\TH02\bin\Debug\net10.0\TH02.deps.json
+C:\Users\Admin\Documents\GitHub\C-SHARP\TUAN 02\Lab02\TH02\bin\Debug\net10.0\TH02.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\C-SHARP\TUAN 02\Lab02\TH02\bin\Debug\net10.0\TH02.dll
+C:\Users\Admin\Documents\GitHub\C-SHARP\TUAN 02\Lab02\TH02\bin\Debug\net10.0\TH02.pdb
+C:\Users\Admin\Documents\GitHub\C-SHARP\TUAN 02\Lab02\TH02\obj\Debug\net10.0\TH02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\C-SHARP\TUAN 02\Lab02\TH02\obj\Debug\net10.0\TH02.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\C-SHARP\TUAN 02\Lab02\TH02\obj\Debug\net10.0\TH02.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\C-SHARP\TUAN 02\Lab02\TH02\obj\Debug\net10.0\TH02.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\C-SHARP\TUAN 02\Lab02\TH02\obj\Debug\net10.0\TH02.sourcelink.json
+C:\Users\Admin\Documents\GitHub\C-SHARP\TUAN 02\Lab02\TH02\obj\Debug\net10.0\TH02.dll
+C:\Users\Admin\Documents\GitHub\C-SHARP\TUAN 02\Lab02\TH02\obj\Debug\net10.0\refint\TH02.dll
+C:\Users\Admin\Documents\GitHub\C-SHARP\TUAN 02\Lab02\TH02\obj\Debug\net10.0\TH02.pdb
+C:\Users\Admin\Documents\GitHub\C-SHARP\TUAN 02\Lab02\TH02\obj\Debug\net10.0\TH02.genruntimeconfig.cache
+C:\Users\Admin\Documents\GitHub\C-SHARP\TUAN 02\Lab02\TH02\obj\Debug\net10.0\ref\TH02.dll
