@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Documents\\GitHub\\SGU26_CSHARP\\TUAN01\\lab1\\BUOI7\\BUOI7.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\CNPM\\C_SHARP\\TUAN01\\BUOI7\\BUOI7.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Documents\\GitHub\\SGU26_CSHARP\\TUAN01\\lab1\\BUOI7\\BUOI7.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\CNPM\\C_SHARP\\TUAN01\\BUOI7\\BUOI7.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\SGU26_CSHARP\\TUAN01\\lab1\\BUOI7\\BUOI7.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\CNPM\\C_SHARP\\TUAN01\\BUOI7\\BUOI7.csproj",
         "projectName": "BUOI7",
-        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\SGU26_CSHARP\\TUAN01\\lab1\\BUOI7\\BUOI7.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\CNPM\\C_SHARP\\TUAN01\\BUOI7\\BUOI7.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\SGU26_CSHARP\\TUAN01\\lab1\\BUOI7\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\CNPM\\C_SHARP\\TUAN01\\BUOI7\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

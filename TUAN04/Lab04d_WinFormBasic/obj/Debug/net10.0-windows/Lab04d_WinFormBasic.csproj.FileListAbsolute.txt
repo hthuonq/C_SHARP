@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\GitHub\CNPM\C_SHARP\TUAN04\Lab04d_WinFormBasic\bin\Debug\net10.0-windows\Lab04d_WinFormBasic.exe
+C:\Users\Admin\Documents\GitHub\CNPM\C_SHARP\TUAN04\Lab04d_WinFormBasic\bin\Debug\net10.0-windows\Lab04d_WinFormBasic.deps.json
+C:\Users\Admin\Documents\GitHub\CNPM\C_SHARP\TUAN04\Lab04d_WinFormBasic\bin\Debug\net10.0-windows\Lab04d_WinFormBasic.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\CNPM\C_SHARP\TUAN04\Lab04d_WinFormBasic\bin\Debug\net10.0-windows\Lab04d_WinFormBasic.dll
+C:\Users\Admin\Documents\GitHub\CNPM\C_SHARP\TUAN04\Lab04d_WinFormBasic\bin\Debug\net10.0-windows\Lab04d_WinFormBasic.pdb
+C:\Users\Admin\Documents\GitHub\CNPM\C_SHARP\TUAN04\Lab04d_WinFormBasic\obj\Debug\net10.0-windows\Lab04d_WinFormBasic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\CNPM\C_SHARP\TUAN04\Lab04d_WinFormBasic\obj\Debug\net10.0-windows\Lab04d_WinFormBasic.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\CNPM\C_SHARP\TUAN04\Lab04d_WinFormBasic\obj\Debug\net10.0-windows\Lab04d_WinFormBasic.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\CNPM\C_SHARP\TUAN04\Lab04d_WinFormBasic\obj\Debug\net10.0-windows\Lab04d_WinFormBasic.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\CNPM\C_SHARP\TUAN04\Lab04d_WinFormBasic\obj\Debug\net10.0-windows\Lab04d_WinFormBasic.sourcelink.json
+C:\Users\Admin\Documents\GitHub\CNPM\C_SHARP\TUAN04\Lab04d_WinFormBasic\obj\Debug\net10.0-windows\Lab04d_WinFormBasic.dll
+C:\Users\Admin\Documents\GitHub\CNPM\C_SHARP\TUAN04\Lab04d_WinFormBasic\obj\Debug\net10.0-windows\refint\Lab04d_WinFormBasic.dll
+C:\Users\Admin\Documents\GitHub\CNPM\C_SHARP\TUAN04\Lab04d_WinFormBasic\obj\Debug\net10.0-windows\Lab04d_WinFormBasic.pdb
+C:\Users\Admin\Documents\GitHub\CNPM\C_SHARP\TUAN04\Lab04d_WinFormBasic\obj\Debug\net10.0-windows\Lab04d_WinFormBasic.genruntimeconfig.cache
+C:\Users\Admin\Documents\GitHub\CNPM\C_SHARP\TUAN04\Lab04d_WinFormBasic\obj\Debug\net10.0-windows\ref\Lab04d_WinFormBasic.dll

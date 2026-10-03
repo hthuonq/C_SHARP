@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\BaiThucHanhLINQ\\BaiThucHanhLINQ\\BaiThucHanhLINQ.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\CNPM\\C_SHARP\\TUAN03\\Lab03\\BaiThucHanhLINQ\\BaiThucHanhLINQ\\BaiThucHanhLINQ.csproj": {}
   },
   "projects": {
-    "D:\\C#\\BaiThucHanhLINQ\\BaiThucHanhLINQ\\BaiThucHanhLINQ.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\CNPM\\C_SHARP\\TUAN03\\Lab03\\BaiThucHanhLINQ\\BaiThucHanhLINQ\\BaiThucHanhLINQ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\BaiThucHanhLINQ\\BaiThucHanhLINQ\\BaiThucHanhLINQ.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\CNPM\\C_SHARP\\TUAN03\\Lab03\\BaiThucHanhLINQ\\BaiThucHanhLINQ\\BaiThucHanhLINQ.csproj",
         "projectName": "BaiThucHanhLINQ",
-        "projectPath": "D:\\C#\\BaiThucHanhLINQ\\BaiThucHanhLINQ\\BaiThucHanhLINQ.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\BaiThucHanhLINQ\\BaiThucHanhLINQ\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\CNPM\\C_SHARP\\TUAN03\\Lab03\\BaiThucHanhLINQ\\BaiThucHanhLINQ\\BaiThucHanhLINQ.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\CNPM\\C_SHARP\\TUAN03\\Lab03\\BaiThucHanhLINQ\\BaiThucHanhLINQ\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
