@@ -1,0 +1,14 @@
+D:\C#\BaiThucHanhLINQ\BaiThucHanhLINQ\obj\Debug\net10.0\BaiThucHanhLINQ.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\BaiThucHanhLINQ\BaiThucHanhLINQ\obj\Debug\net10.0\BaiThucHanhLINQ.AssemblyInfoInputs.cache
+D:\C#\BaiThucHanhLINQ\BaiThucHanhLINQ\obj\Debug\net10.0\BaiThucHanhLINQ.AssemblyInfo.cs
+D:\C#\BaiThucHanhLINQ\BaiThucHanhLINQ\obj\Debug\net10.0\BaiThucHanhLINQ.csproj.CoreCompileInputs.cache
+D:\C#\BaiThucHanhLINQ\BaiThucHanhLINQ\bin\Debug\net10.0\BaiThucHanhLINQ.exe
+D:\C#\BaiThucHanhLINQ\BaiThucHanhLINQ\bin\Debug\net10.0\BaiThucHanhLINQ.deps.json
+D:\C#\BaiThucHanhLINQ\BaiThucHanhLINQ\bin\Debug\net10.0\BaiThucHanhLINQ.runtimeconfig.json
+D:\C#\BaiThucHanhLINQ\BaiThucHanhLINQ\bin\Debug\net10.0\BaiThucHanhLINQ.dll
+D:\C#\BaiThucHanhLINQ\BaiThucHanhLINQ\bin\Debug\net10.0\BaiThucHanhLINQ.pdb
+D:\C#\BaiThucHanhLINQ\BaiThucHanhLINQ\obj\Debug\net10.0\BaiThucHanhLINQ.dll
+D:\C#\BaiThucHanhLINQ\BaiThucHanhLINQ\obj\Debug\net10.0\refint\BaiThucHanhLINQ.dll
+D:\C#\BaiThucHanhLINQ\BaiThucHanhLINQ\obj\Debug\net10.0\BaiThucHanhLINQ.pdb
+D:\C#\BaiThucHanhLINQ\BaiThucHanhLINQ\obj\Debug\net10.0\BaiThucHanhLINQ.genruntimeconfig.cache
+D:\C#\BaiThucHanhLINQ\BaiThucHanhLINQ\obj\Debug\net10.0\ref\BaiThucHanhLINQ.dll
