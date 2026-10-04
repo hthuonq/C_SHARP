@@ -2,16 +2,39 @@ namespace Lab04d_WinFormBasic;
 
 public partial class Form1 : Form
 {
-    // 1. Khai báo các thành phần trên giao diện
-    private RadioButton rdoBacNhat = new RadioButton();
-    private RadioButton rdoBacHai = new RadioButton();
-    private TextBox txtA = new TextBox();
-    private TextBox txtB = new TextBox();
-    private TextBox txtC = new TextBox();
-    private TextBox txtKetQua = new TextBox();
-    private Button btnGiai = new Button();
+    // Khai báo các Control nhập liệu
+    private TextBox txtHoTen = new TextBox();
+    private TextBox txtDiaChi = new TextBox();
+    private TextBox txtSoNgayO = new TextBox();
+    
+    // Loại phòng
+    private RadioButton rdoPhongDon = new RadioButton();
+    private RadioButton rdoPhongDoi = new RadioButton();
+    private RadioButton rdoPhongBa = new RadioButton();
+
+    // Tiện nghi
+    private CheckBox chkTivi = new CheckBox();
+    private CheckBox chkInternet = new CheckBox();
+    private CheckBox chkMayNuocNong = new CheckBox();
+
+    // Dịch vụ
+    private CheckBox chkKaraoke = new CheckBox();
+    private CheckBox chkAnSang = new CheckBox();
+
+    // Kết quả & Thống kê
+    private Label lblThanhTien = new Label();
+    private Label lblSoLuotNguoi = new Label();
+    private Label lblTongSoTien = new Label();
+
+    // Các nút chức năng
+    private Button btnThanhToan = new Button();
+    private Button btnNhapMoi = new Button();
+    private Button btnTongKet = new Button();
     private Button btnThoat = new Button();
-    private Label lblC = new Label();
+
+    // Biến lưu tổng kết
+    private int tongSoLuotKhach = 0;
+    private double tongTienThuDuoc = 0;
 
     public Form1()
     {
@@ -20,135 +43,150 @@ public partial class Form1 : Form
 
     private void InitializeComponentCustom()
     {
-        this.Text = "Giải phương trình bậc 1-2";
-        this.Size = new Size(380, 420);
+        this.Text = "Khách Sạn Thanh Thanh - Trả Phòng";
+        this.Size = new Size(580, 520);
         this.StartPosition = FormStartPosition.CenterScreen;
 
-        // Tiêu đề
         Label lblTitle = new Label 
         { 
-            Text = "GIẢI PHƯƠNG TRÌNH", 
-            Font = new Font("Arial", 14, FontStyle.Bold), 
+            Text = "KHÁCH SẠN THANH THANH - TRẢ PHÒNG", 
+            Font = new Font("Arial", 13, FontStyle.Bold), 
             ForeColor = Color.Red, 
-            Location = new Point(80, 15), 
+            Location = new Point(100, 10), 
             AutoSize = true 
         };
 
-        // GroupBox chọn loại phương trình
-        GroupBox gbChon = new GroupBox { Text = "Bạn vui lòng chọn", Location = new Point(20, 50), Size = new Size(320, 80) };
-        rdoBacNhat.Text = "Phương trình bậc nhất"; rdoBacNhat.Location = new Point(20, 25); rdoBacNhat.AutoSize = true; rdoBacNhat.Checked = true;
-        rdoBacHai.Text = "Phương trình bậc hai"; rdoBacHai.Location = new Point(20, 50); rdoBacHai.AutoSize = true;
-        gbChon.Controls.Add(rdoBacNhat);
-        gbChon.Controls.Add(rdoBacHai);
+        // Thông tin khách hàng
+        Label lblName = new Label { Text = "Họ và tên:", Location = new Point(20, 50), AutoSize = true };
+        txtHoTen.Location = new Point(100, 47); txtHoTen.Size = new Size(200, 23);
 
-        // Các ô nhập liệu
-        Label lblA = new Label { Text = "Nhập a", Location = new Point(20, 150), AutoSize = true };
-        txtA.Location = new Point(90, 147); txtA.Size = new Size(130, 23);
+        Label lblAddress = new Label { Text = "Địa chỉ:", Location = new Point(20, 85), AutoSize = true };
+        txtDiaChi.Location = new Point(100, 82); txtDiaChi.Size = new Size(200, 23);
 
-        Label lblB = new Label { Text = "Nhập b", Location = new Point(20, 185), AutoSize = true };
-        txtB.Location = new Point(90, 182); txtB.Size = new Size(130, 23);
+        Label lblDays = new Label { Text = "Số ngày ở:", Location = new Point(20, 120), AutoSize = true };
+        txtSoNgayO.Location = new Point(100, 117); txtSoNgayO.Size = new Size(200, 23);
 
-        lblC.Text = "Nhập c"; lblC.Location = new Point(20, 220); lblC.AutoSize = true; lblC.Enabled = false;
-        txtC.Location = new Point(90, 217); txtC.Size = new Size(130, 23); txtC.Enabled = false;
+        // GroupBox Loại phòng
+        GroupBox gbLoaiPhong = new GroupBox { Text = "Loại phòng", Location = new Point(20, 155), Size = new Size(160, 110) };
+        rdoPhongDon.Text = "Phòng đơn"; rdoPhongDon.Location = new Point(10, 20); rdoPhongDon.Checked = true;
+        rdoPhongDoi.Text = "Phòng đôi"; rdoPhongDoi.Location = new Point(10, 48);
+        rdoPhongBa.Text = "Phòng ba"; rdoPhongBa.Location = new Point(10, 76);
+        gbLoaiPhong.Controls.AddRange(new Control[] { rdoPhongDon, rdoPhongDoi, rdoPhongBa });
 
-        Label lblKQ = new Label { Text = "Kết quả", Location = new Point(20, 260), AutoSize = true };
-        txtKetQua.Location = new Point(90, 257); txtKetQua.Size = new Size(250, 50); txtKetQua.Multiline = true; txtKetQua.ReadOnly = true;
+        // GroupBox Tiện nghi
+        GroupBox gbTienNghi = new GroupBox { Text = "Tiện nghi", Location = new Point(190, 155), Size = new Size(160, 110) };
+        chkTivi.Text = "Tivi"; chkTivi.Location = new Point(10, 20);
+        chkInternet.Text = "Internet"; chkInternet.Location = new Point(10, 48);
+        chkMayNuocNong.Text = "Máy nước nóng"; chkMayNuocNong.Location = new Point(10, 76);
+        gbTienNghi.Controls.AddRange(new Control[] { chkTivi, chkInternet, chkMayNuocNong });
 
-        // Các nút bấm
-        btnGiai.Text = "Giải"; btnGiai.Location = new Point(240, 147); btnGiai.Size = new Size(100, 40); btnGiai.Enabled = false;
-        btnThoat.Text = "Thoát"; btnThoat.Location = new Point(240, 197); btnThoat.Size = new Size(100, 40);
+        // GroupBox Dịch vụ
+        GroupBox gbDichVu = new GroupBox { Text = "Dịch vụ", Location = new Point(360, 155), Size = new Size(170, 110) };
+        chkKaraoke.Text = "Karaoke"; chkKaraoke.Location = new Point(10, 20);
+        chkAnSang.Text = "Ăn sáng"; chkAnSang.Location = new Point(10, 48);
+        gbDichVu.Controls.AddRange(new Control[] { chkKaraoke, chkAnSang });
 
-        // 2. Đăng ký sự kiện
-        rdoBacNhat.CheckedChanged += RdoBacNhat_CheckedChanged;
-        rdoBacHai.CheckedChanged += RdoBacHai_CheckedChanged;
-        
-        // Khi thay đổi nội dung ô nhập -> kích hoạt nút Giải
-        txtA.TextChanged += KiemTraNhapLieu;
-        txtB.TextChanged += KiemTraNhapLieu;
-        txtC.TextChanged += KiemTraNhapLieu;
+        // Thành tiền
+        Label lblTTText = new Label { Text = "Thành tiền:", Location = new Point(20, 280), Font = new Font("Arial", 10, FontStyle.Bold), AutoSize = true };
+        lblThanhTien.Text = "0 VND"; lblThanhTien.Location = new Point(110, 280); lblThanhTien.Font = new Font("Arial", 10, FontStyle.Bold); lblThanhTien.ForeColor = Color.Blue; lblThanhTien.AutoSize = true;
 
-        btnGiai.Click += BtnGiai_Click;
+        // GroupBox Thông tin tổng kết
+        GroupBox gbTongKet = new GroupBox { Text = "Thông tin tổng kết", Location = new Point(20, 315), Size = new Size(510, 80) };
+        Label lblSLText = new Label { Text = "Số lượt người:", Location = new Point(20, 30), AutoSize = true };
+        lblSoLuotNguoi.Text = "0"; lblSoLuotNguoi.Location = new Point(120, 30); lblSoLuotNguoi.AutoSize = true;
+
+        Label lblSTText = new Label { Text = "Tổng số tiền:", Location = new Point(250, 30), AutoSize = true };
+        lblTongSoTien.Text = "0 VND"; lblTongSoTien.Location = new Point(340, 30); lblTongSoTien.AutoSize = true;
+        gbTongKet.Controls.AddRange(new Control[] { lblSLText, lblSoLuotNguoi, lblSTText, lblTongSoTien });
+
+        // Nút bấm
+        btnThanhToan.Text = "Thanh toán"; btnThanhToan.Location = new Point(40, 415); btnThanhToan.Size = new Size(100, 35); btnThanhToan.Enabled = false;
+        btnNhapMoi.Text = "Nhập mới"; btnNhapMoi.Location = new Point(160, 415); btnNhapMoi.Size = new Size(100, 35); btnNhapMoi.Enabled = false;
+        btnTongKet.Text = "Tổng Kết"; btnTongKet.Location = new Point(280, 415); btnTongKet.Size = new Size(100, 35); btnTongKet.Enabled = false;
+        btnThoat.Text = "Thoát"; btnThoat.Location = new Point(400, 415); btnThoat.Size = new Size(100, 35);
+
+        // Đăng ký sự kiện
+        txtHoTen.TextChanged += KiemTraInput;
+        txtSoNgayO.TextChanged += KiemTraInput;
+
+        btnThanhToan.Click += BtnThanhToan_Click;
+        btnNhapMoi.Click += BtnNhapMoi_Click;
+        btnTongKet.Click += BtnTongKet_Click;
         btnThoat.Click += (s, e) => this.Close();
         this.FormClosing += Form1_FormClosing;
 
-        // Thêm các control vào Form
-        this.Controls.AddRange(new Control[] { lblTitle, gbChon, lblA, txtA, lblB, txtB, lblC, txtC, lblKQ, txtKetQua, btnGiai, btnThoat });
+        this.Controls.AddRange(new Control[] { 
+            lblTitle, lblName, txtHoTen, lblAddress, txtDiaChi, lblDays, txtSoNgayO, 
+            gbLoaiPhong, gbTienNghi, gbDichVu, lblTTText, lblThanhTien, gbTongKet,
+            btnThanhToan, btnNhapMoi, btnTongKet, btnThoat 
+        });
     }
 
-    // Sự kiện khi chọn Phương trình bậc nhất -> Làm mờ/ẩn ô nhập C
-    private void RdoBacNhat_CheckedChanged(object? sender, EventArgs e)
+    private void KiemTraInput(object? sender, EventArgs e)
     {
-        if (rdoBacNhat.Checked)
-        {
-            lblC.Enabled = false;
-            txtC.Enabled = false;
-            txtC.Clear();
-        }
+        btnThanhToan.Enabled = !string.IsNullOrWhiteSpace(txtHoTen.Text) && 
+                               int.TryParse(txtSoNgayO.Text, out int n) && n > 0;
     }
 
-    // Sự kiện khi chọn Phương trình bậc hai -> Hiện ô nhập C
-    private void RdoBacHai_CheckedChanged(object? sender, EventArgs e)
+    private void BtnThanhToan_Click(object? sender, EventArgs e)
     {
-        if (rdoBacHai.Checked)
-        {
-            lblC.Enabled = true;
-            txtC.Enabled = true;
-        }
+        int soNgay = int.Parse(txtSoNgayO.Text);
+        double giaPhong = 0;
+
+        if (rdoPhongDon.Checked) giaPhong = 300000;
+        else if (rdoPhongDoi.Checked) giaPhong = 350000;
+        else if (rdoPhongBa.Checked) giaPhong = 400000;
+
+        int tienNghiCount = 0;
+        if (chkTivi.Checked) tienNghiCount++;
+        if (chkInternet.Checked) tienNghiCount++;
+        if (chkMayNuocNong.Checked) tienNghiCount++;
+
+        double giaTienNghi = tienNghiCount * 10000;
+
+        double giaDichVu = 0;
+        if (chkKaraoke.Checked) giaDichVu += 50000;
+        if (chkAnSang.Checked) giaDichVu += 15000 * soNgay;
+
+        double tongTienKhach = (giaPhong + giaTienNghi) * soNgay + giaDichVu;
+        lblThanhTien.Text = $"{tongTienKhach:N0} VND";
+
+        // Cập nhật biến tích lũy
+        tongSoLuotKhach++;
+        tongTienThuDuoc += tongTienKhach;
+
+        btnNhapMoi.Enabled = true;
+        btnTongKet.Enabled = true;
     }
 
-    // Kiểm tra đã nhập đủ dữ liệu chưa để bật nút "Giải"
-    private void KiemTraNhapLieu(object? sender, EventArgs e)
+    private void BtnNhapMoi_Click(object? sender, EventArgs e)
     {
-        if (rdoBacNhat.Checked)
-        {
-            btnGiai.Enabled = !string.IsNullOrWhiteSpace(txtA.Text) && !string.IsNullOrWhiteSpace(txtB.Text);
-        }
-        else
-        {
-            btnGiai.Enabled = !string.IsNullOrWhiteSpace(txtA.Text) && 
-                              !string.IsNullOrWhiteSpace(txtB.Text) && 
-                              !string.IsNullOrWhiteSpace(txtC.Text);
-        }
+        txtHoTen.Clear();
+        txtDiaChi.Clear();
+        txtSoNgayO.Clear();
+        rdoPhongDon.Checked = true;
+        chkTivi.Checked = false; chkInternet.Checked = false; chkMayNuocNong.Checked = false;
+        chkKaraoke.Checked = false; chkAnSang.Checked = false;
+        lblThanhTien.Text = "0 VND";
+        btnNhapMoi.Enabled = false;
+        btnThanhToan.Enabled = false;
+        txtHoTen.Focus();
     }
 
-    // 3. ĐÂY CHÍNH LÀ ĐOẠN GỌI CLASS PhuongTrinhBacHai KHI BẤM NÚT GIẢI
-    private void BtnGiai_Click(object? sender, EventArgs e)
+    private void BtnTongKet_Click(object? sender, EventArgs e)
     {
-        // Lấy số a, b người dùng gõ vào
-        if (!double.TryParse(txtA.Text, out double a) || !double.TryParse(txtB.Text, out double b))
-        {
-            MessageBox.Show("Dữ liệu nhập a, b không hợp lệ!", "Lỗi");
-            return;
-        }
+        lblSoLuotNguoi.Text = tongSoLuotKhach.ToString();
+        lblTongSoTien.Text = $"{tongTienThuDuoc:N0} VND";
 
-        if (rdoBacNhat.Checked)
-        {
-            // TẠO ĐỐI TƯỢNG VÀ GỌI HÀM GIẢI BẬC NHẤT
-            PhuongTrinhBacHai pt = new PhuongTrinhBacHai(a, b);
-            txtKetQua.Text = pt.GiaiBacNhat();
-        }
-        else
-        {
-            if (!double.TryParse(txtC.Text, out double c))
-            {
-                MessageBox.Show("Dữ liệu nhập c không hợp lệ!", "Lỗi");
-                return;
-            }
-
-            // TẠO ĐỐI TƯỢNG VÀ GỌI HÀM GIẢI BẬC HAI
-            PhuongTrinhBacHai pt = new PhuongTrinhBacHai(a, b, c);
-            txtKetQua.Text = pt.GiaiBacHai();
-        }
-
-        // Sau khi giải xong thì làm mờ nút Giải theo yêu cầu đề bài
-        btnGiai.Enabled = false;
+        // Reset về 0 sau khi bấm tổng kết
+        tongSoLuotKhach = 0;
+        tongTienThuDuoc = 0;
+        btnTongKet.Enabled = false;
     }
 
     private void Form1_FormClosing(object? sender, FormClosingEventArgs e)
     {
         if (MessageBox.Show("Bạn có chắc chắn muốn thoát?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
-        {
             e.Cancel = true;
-        }
     }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lab04d_WinFormBasic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+189b2cb112acd0ad39099c8883bbf1ecd70b9e21")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb1d704224b4943ba336c4e44c22d5bee5f8bdf2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lab04d_WinFormBasic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lab04d_WinFormBasic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Documents\\GitHub\\CNPM\\C_SHARP\\TUAN03\\Lab03\\BaiThucHanhLINQ\\BaiThucHanhLINQ\\BaiThucHanhLINQ.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\C_SHARP\\TUAN03\\Lab03\\BaiThucHanhLINQ\\BaiThucHanhLINQ\\BaiThucHanhLINQ.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Documents\\GitHub\\CNPM\\C_SHARP\\TUAN03\\Lab03\\BaiThucHanhLINQ\\BaiThucHanhLINQ\\BaiThucHanhLINQ.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\C_SHARP\\TUAN03\\Lab03\\BaiThucHanhLINQ\\BaiThucHanhLINQ\\BaiThucHanhLINQ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\CNPM\\C_SHARP\\TUAN03\\Lab03\\BaiThucHanhLINQ\\BaiThucHanhLINQ\\BaiThucHanhLINQ.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\C_SHARP\\TUAN03\\Lab03\\BaiThucHanhLINQ\\BaiThucHanhLINQ\\BaiThucHanhLINQ.csproj",
         "projectName": "BaiThucHanhLINQ",
-        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\CNPM\\C_SHARP\\TUAN03\\Lab03\\BaiThucHanhLINQ\\BaiThucHanhLINQ\\BaiThucHanhLINQ.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\C_SHARP\\TUAN03\\Lab03\\BaiThucHanhLINQ\\BaiThucHanhLINQ\\BaiThucHanhLINQ.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\CNPM\\C_SHARP\\TUAN03\\Lab03\\BaiThucHanhLINQ\\BaiThucHanhLINQ\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\C_SHARP\\TUAN03\\Lab03\\BaiThucHanhLINQ\\BaiThucHanhLINQ\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

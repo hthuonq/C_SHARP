@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\CNPM\\C_SHARP\\TUAN04\\Lab04d_WinFormBasic\\Lab04d_WinFormBasic.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\C_SHARP\\TUAN04\\Lab04d_WinFormBasic\\Lab04d_WinFormBasic.csproj",
       "projectName": "Lab04d_WinFormBasic",
-      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\CNPM\\C_SHARP\\TUAN04\\Lab04d_WinFormBasic\\Lab04d_WinFormBasic.csproj",
+      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\C_SHARP\\TUAN04\\Lab04d_WinFormBasic\\Lab04d_WinFormBasic.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\CNPM\\C_SHARP\\TUAN04\\Lab04d_WinFormBasic\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\C_SHARP\\TUAN04\\Lab04d_WinFormBasic\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

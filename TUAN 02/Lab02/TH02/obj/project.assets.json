@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\CNPM\\C_SHARP\\TUAN 02\\Lab02\\TH02\\TH02.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\C_SHARP\\TUAN 02\\Lab02\\TH02\\TH02.csproj",
       "projectName": "TH02",
-      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\CNPM\\C_SHARP\\TUAN 02\\Lab02\\TH02\\TH02.csproj",
+      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\C_SHARP\\TUAN 02\\Lab02\\TH02\\TH02.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\CNPM\\C_SHARP\\TUAN 02\\Lab02\\TH02\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\C_SHARP\\TUAN 02\\Lab02\\TH02\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
