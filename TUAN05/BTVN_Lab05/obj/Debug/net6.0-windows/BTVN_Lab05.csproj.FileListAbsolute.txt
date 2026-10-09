@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\GitHub\C_SHARP\TUAN05\BTVN_Lab05\bin\Debug\net6.0-windows\BTVN_Lab05.exe
+C:\Users\Admin\Documents\GitHub\C_SHARP\TUAN05\BTVN_Lab05\bin\Debug\net6.0-windows\BTVN_Lab05.deps.json
+C:\Users\Admin\Documents\GitHub\C_SHARP\TUAN05\BTVN_Lab05\bin\Debug\net6.0-windows\BTVN_Lab05.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\C_SHARP\TUAN05\BTVN_Lab05\bin\Debug\net6.0-windows\BTVN_Lab05.dll
+C:\Users\Admin\Documents\GitHub\C_SHARP\TUAN05\BTVN_Lab05\bin\Debug\net6.0-windows\BTVN_Lab05.pdb
+C:\Users\Admin\Documents\GitHub\C_SHARP\TUAN05\BTVN_Lab05\obj\Debug\net6.0-windows\BTVN_Lab05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\C_SHARP\TUAN05\BTVN_Lab05\obj\Debug\net6.0-windows\BTVN_Lab05.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\C_SHARP\TUAN05\BTVN_Lab05\obj\Debug\net6.0-windows\BTVN_Lab05.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\C_SHARP\TUAN05\BTVN_Lab05\obj\Debug\net6.0-windows\BTVN_Lab05.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\C_SHARP\TUAN05\BTVN_Lab05\obj\Debug\net6.0-windows\BTVN_Lab05.sourcelink.json
+C:\Users\Admin\Documents\GitHub\C_SHARP\TUAN05\BTVN_Lab05\obj\Debug\net6.0-windows\BTVN_Lab05.dll
+C:\Users\Admin\Documents\GitHub\C_SHARP\TUAN05\BTVN_Lab05\obj\Debug\net6.0-windows\refint\BTVN_Lab05.dll
+C:\Users\Admin\Documents\GitHub\C_SHARP\TUAN05\BTVN_Lab05\obj\Debug\net6.0-windows\BTVN_Lab05.pdb
+C:\Users\Admin\Documents\GitHub\C_SHARP\TUAN05\BTVN_Lab05\obj\Debug\net6.0-windows\BTVN_Lab05.genruntimeconfig.cache
+C:\Users\Admin\Documents\GitHub\C_SHARP\TUAN05\BTVN_Lab05\obj\Debug\net6.0-windows\ref\BTVN_Lab05.dll

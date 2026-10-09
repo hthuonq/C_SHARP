@@ -39,4 +39,14 @@
 
 ---
 
+### Tuần 05: Lập trình Windows Forms Nâng cao (WinForm Advanced)
+* **Nội dung đã làm:**
+  * **Lab 05c (`Lab05c_WinFormAdv`):** 
+    * Xây dựng ứng dụng **Từ điển Anh - Việt & Việt - Anh** hỗ trợ tra cứu từ vựng 2 chiều, lọc dữ liệu gần đúng bằng LINQ kết hợp `TabControl`, `ListBox` và `RichTextBox`.
+    * Thực hành các thao tác xử lý tập hợp số trên `ListBox` hỗ trợ chọn nhiều phần tử (`MultiExtended`), tính tổng, bình phương, tăng giá trị và lọc số chẵn/lẻ.
+    * Thiết kế ứng dụng **Quản lý Danh bạ Điện thoại** phân loại tự động theo ký tự $A \rightarrow Z$ sử dụng cấu trúc cây `TreeView`.
+  * **Lab 05d (`Lab05d_WinFormAdv`):**
+    * Xây dựng đồng hồ đếm ngược thời gian dạng `MM:ss` sử dụng định thời `Timer` (`1000ms`).
+    * Thực hiện thao tác CRUD (Thêm, Xóa, Sửa) tương tác CSDL quản lý thông tin Lớp học với **ADO.NET** (`SqliteConnection`, `SqliteCommand`).
+    * Thiết kế giao diện **Form Main** tổng hợp hệ thống điều hướng `MenuStrip` quản lý tập trung tất cả các bài tập trong tuần.
 
